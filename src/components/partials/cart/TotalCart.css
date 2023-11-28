@@ -1,0 +1,29 @@
+.title-Container-Div {
+  background-color: #e9e9e9;
+}
+
+.btn-Checkout {
+  background-color: black;
+  color: #ffffff;
+  width: 280px;
+  height: 70px;
+  border-radius: 0;
+}
+
+.btn-Checkout:hover {
+  background-color: #145333;
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .btn-Checkout {
+    width: auto;
+    height: auto;
+    font-size: 1rem;
+    padding: 0.25rem 0.5rem;
+  }
+}
+
+.fs-Custom {
+  font-size: 0.87rem;
+}

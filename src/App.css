@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap");
+
+:root {
+  --color-primary: #000;
+  --color-primary-hover: #145333;
+  --color-secondary: #eaeaea;
+  --color-secondary-hover: #c2c2c2;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.color-Secondary {
+  background-color: var(--color-secondary);
+}
+
+.color-Secondary:hover {
+  background-color: var(--color-secondary-hover);
+}
+
+.color-Primary {
+  background-color: var(--color-primary);
+}
+
+.color-Primary:hover {
+  background-color: var(--color-primary-hover);
+}

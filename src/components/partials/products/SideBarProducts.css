@@ -1,0 +1,43 @@
+.range-Text {
+  color: #145333;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  background-color: #145333;
+  width: 15px;
+  height: 15px;
+}
+
+input[type="range"]::-webkit-slider-thumb:active {
+  background-color: #145333;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background-color: #c3c4c3;
+  height: 3px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.custom-icon {
+  color: green;
+}
+
+.selected-Category {
+  /* color: #145333; */
+  color: green;
+}
+
+
+/* CLASES DEL RANGE  */
+.css-1j61iog{
+  background-color: black !important;
+}
+.css-1uy0n0b{
+  display: block !important;
+}
+.css-1ej0f39{
+  display: block !important;
+}

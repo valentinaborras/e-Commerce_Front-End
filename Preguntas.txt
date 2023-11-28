@@ -1,0 +1,4 @@
+-Footer, como hacer que sea siempre a medida?? sticky footer
+Ejemplo de bootstrap: https://getbootstrap.com/docs/4.0/examples/sticky-footer/
+-Diferencias entre buttons y NavLinks
+-Como era el .env en front?? cambiar url de las llamadas axios por variables del .env

@@ -1,0 +1,28 @@
+.not-Fount-Height {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 15rem;
+  margin: 0;
+  padding: 0;
+}
+.subtitle {
+  font-size: 2.5rem;
+}
+.content {
+  font-size: 0.8rem;
+}
+.back-Btn {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+}
+
+.back-Btn:hover {
+  background-color: #145333;
+  color: #ffffff;
+}

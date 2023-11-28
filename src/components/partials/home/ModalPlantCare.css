@@ -1,0 +1,22 @@
+.modal-content {
+  border-radius: 0 !important;
+  font-size: 1rem;
+}
+
+.modal-footer {
+  border-radius: 0 !important;
+}
+
+.modal-body {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.modal-Care-List {
+  font-size: 1rem;
+}
+
+.custom-Modal {
+  background-color: rgba(20, 83, 51, 0.2);
+  border-bottom: 0.1rem solid black;
+}

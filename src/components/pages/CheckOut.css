@@ -1,0 +1,43 @@
+/* CheckOut CSS */
+.secondary-Font {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* Billing Details CSS */
+
+.text-Form {
+  font-size: 14px;
+}
+
+/* Ticket CSS */
+
+#avatarProduct {
+  width: 100px;
+}
+
+.product-Detail {
+  font-size: 14px;
+}
+
+#totalPrice {
+  color: var(--color-green);
+}
+
+#paymentMethodsList {
+  list-style: none;
+}
+
+ul {
+  font-size: 14px;
+}
+
+#place-Order-Btn {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: var(--color-primary);
+  color: white;
+}
+
+#place-Order-Btn:hover {
+  color: white;
+  background-color: var(--color-primary-hover);
+}

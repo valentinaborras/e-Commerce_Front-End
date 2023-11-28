@@ -1,0 +1,25 @@
+.main-Canvas{
+    height: calc(100vh - 62px);
+    display: flex;
+    flex-direction: column;
+}
+
+.shadow-Footer-Canvas{
+    box-shadow: 1px -25px 40px -14px rgba(0,0,0,0.5);
+-webkit-box-shadow: 1px -25px 40px -14px rgba(0,0,0,0.5);
+-moz-box-shadow: 1px -25px 40px -14px rgba(0,0,0,0.5);
+}
+
+.btn-Cart-Canvas:hover{
+    background-color: transparent;
+}
+
+.btn-Cart-Canvas:active{
+    background-color: wheat;
+}
+.badge-Cart-Canvas{
+    font-size: 0.6rem;
+    top: 10px !important;
+
+}
+

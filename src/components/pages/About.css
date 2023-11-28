@@ -1,0 +1,118 @@
+/* SNAP SCROLL */
+.snap-Scroll {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+.slider-Scroll {
+  scroll-snap-align: start;
+}
+/* Admin Dashboard CSS */
+.admin-About-Container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.background-About-Admin {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-Admin-Dashboard {
+  width: 60%;
+  object-fit: cover;
+  border: 3px solid white;
+  border-radius: 9px;
+  box-shadow: #0000005e 0 7px 29px;
+}
+
+/* Our Team CSS */
+.img-Avatars {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.content-Team-Container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+@media (max-width: 767px) {
+  .content-Team-Container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+/* What is Seedling CSS */
+
+/* .seedling-Bg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/img/bg-about-this-project.png");
+  background-size: cover;
+  background-position: center;
+} */
+
+.seedling-Bg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.seedling-Bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/img/bg-about-this-project.png");
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .seedling-Bg::before {
+    opacity: 0.5;
+  }
+  .content-About {
+    padding-left: 0;
+  }
+}
+
+.about-Header {
+  height: 100vh;
+  min-height: 25rem;
+}
+
+.content-About {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: start;
+  padding-left: 30px;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .content-About {
+    padding-left: 0;
+  }
+}
+
+.title-About {
+  font-size: 2.5rem;
+}
+
+.p-About {
+  font-size: 1rem;
+}

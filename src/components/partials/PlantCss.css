@@ -1,0 +1,467 @@
+.plant-animation {
+    height: 160px;
+    width: 140px;
+    position: absolute;
+   
+    right: -120px;
+    transform: scale(1.);
+    padding-top: 20px;
+  }
+  
+  .plant-Animation-Father{
+    height: 100%;
+  }
+  .plant.plant-one .stem {
+    width: 113px;
+    height: 127px;
+    border: solid 2px #2e5e38;
+    border-color: #2e5e38 transparent transparent;
+    border-radius: 50%/20px 13px 0 0;
+    transform: rotate(73deg);
+    position: absolute;
+    left: -58px;
+    top: 13px;
+  }
+  
+  .plant.plant-two .stem {
+    width: 88px;
+    height: 123px;
+    border: solid 2px #2e5e38;
+    border-color: #2e5e38 transparent transparent;
+    border-radius: 50%/11px 13px 0 0;
+    transform: rotate(291deg);
+    position: absolute;
+    left: 107px;
+    top: 28px;
+  }
+  
+  .plant.plant-three .stem {
+    width: 74px;
+    height: 161px;
+    border: solid 2px #2e5e38;
+    border-color: #2e5e38 transparent transparent;
+    border-radius: 50%/11px 13px 0 0;
+    transform: rotate(46deg);
+    position: absolute;
+    left: -59px;
+    top: 57px;
+  }
+  
+  .pot {
+    position: relative;
+  }
+  
+  .pot .top {
+    height: 5px;
+    width: 85px;
+    background: #5fc7d1;
+    display: block;
+    margin: 106px auto 0;
+    border-radius: 10px;
+  }
+  
+  .pot span.shape {
+    height: 40px;
+    width: 80px;
+    background: #8fd5db;
+    display: block;
+    margin: auto;
+    border-radius: 0 0 30px 30px;
+    overflow: hidden;
+  }
+  
+  .pot span.base {
+    height: 3px;
+    width: 45px;
+    background: #5fc7d1;
+    display: block;
+    margin: -2px auto 0;
+    border-radius: 10px;
+    z-index: 4;
+    position: relative;
+  }
+  
+  .shadow {
+    height: 15px;
+    width: 79px;
+    background: #373a31;
+    border-radius: 50%;
+    margin: auto;
+    z-index: -1;
+    position: relative;
+    top: -8px;
+  }
+  
+  .petals span {
+    background: #2e5e38;
+    display: block;
+    position: absolute;
+    border-radius: 50% 50%;
+  }
+  
+  .plant.plant-one .petals span:first-child {
+    height: 24px;
+    width: 7px;
+    left: 56px;
+    top: 79px;
+    transform: rotate(301deg);
+  }
+  
+  .plant.plant-one .petals span:nth-child(2) {
+    height: 21px;
+    width: 6px;
+    left: 54px;
+    top: 64px;
+    transform: rotate(297deg);
+  }
+  
+  .plant.plant-one .petals span:nth-child(3) {
+    height: 20px;
+    width: 6px;
+    left: 51px;
+    top: 50px;
+    transform: rotate(294deg);
+  }
+  
+  .plant.plant-one .petals span:nth-child(4) {
+    height: 17px;
+    width: 6px;
+    left: 47px;
+    top: 37px;
+    transform: rotate(288deg);
+  }
+  
+  .plant.plant-one .petals span:nth-child(5) {
+    height: 16px;
+    width: 5px;
+    left: 42px;
+    top: 25px;
+    transform: rotate(290deg);
+  }
+  
+  .plant.plant-one .petals span:nth-child(6) {
+    height: 16px;
+    width: 5px;
+    left: 34px;
+    top: 12px;
+    transform: rotate(289deg);
+  }
+  
+  .plant.plant-one .petals span:nth-child(7) {
+    height: 16px;
+    width: 5px;
+    left: 42px;
+    top: 4px;
+    transform: rotate(190deg);
+  }
+  
+  .plant.plant-one .petals span:nth-child(8) {
+    height: 16px;
+    width: 5px;
+    left: 50px;
+    top: 16px;
+    transform: rotate(190deg);
+  }
+  
+  .plant.plant-one .petals span:nth-child(9) {
+    height: 17px;
+    width: 6px;
+    left: 57px;
+    top: 27px;
+    transform: rotate(204deg);
+  }
+  
+  .plant.plant-one .petals span:nth-child(10) {
+    height: 20px;
+    width: 6px;
+    left: 64px;
+    top: 41px;
+    transform: rotate(208deg);
+  }
+  
+  .plant.plant-one .petals span:nth-child(11) {
+    height: 21px;
+    width: 6px;
+    left: 69px;
+    top: 55px;
+    transform: rotate(208deg);
+  }
+  
+  .plant.plant-one .petals span:nth-child(12) {
+    height: 21px;
+    width: 6px;
+    left: 72px;
+    top: 71px;
+    transform: rotate(215deg);
+  }
+  
+  .plant.plant-two .petals span:first-child {
+    height: 22px;
+    width: 7px;
+    left: 93px;
+    top: 85px;
+    transform: rotate(254deg);
+  }
+  
+  .plant.plant-two .petals span:nth-child(2) {
+    height: 21px;
+    width: 6px;
+    left: 97px;
+    top: 71px;
+    transform: rotate(261deg);
+  }
+  
+  .plant.plant-two .petals span:nth-child(3) {
+    height: 20px;
+    width: 6px;
+    left: 101px;
+    top: 58px;
+    transform: rotate(261deg);
+  }
+  
+  .plant.plant-two .petals span:nth-child(4) {
+    height: 18px;
+    width: 5px;
+    left: 106px;
+    top: 47px;
+    transform: rotate(258deg);
+  }
+  
+  .plant.plant-two .petals span:nth-child(5) {
+    height: 15px;
+    width: 5px;
+    left: 110px;
+    top: 38px;
+    transform: rotate(258deg);
+  }
+  
+  .plant.plant-two .petals span:nth-child(6) {
+    height: 12px;
+    width: 4px;
+    left: 115px;
+    top: 32px;
+    transform: rotate(265deg);
+  }
+  
+  .plant.plant-two .petals span:nth-child(7) {
+    height: 24px;
+    width: 7px;
+    left: 77px;
+    top: 69px;
+    transform: rotate(325deg);
+  }
+  
+  .plant.plant-two .petals span:nth-child(8) {
+    height: 21px;
+    width: 6px;
+    left: 83px;
+    top: 57px;
+    transform: rotate(321deg);
+  }
+  
+  .plant.plant-two .petals span:nth-child(9) {
+    height: 18px;
+    width: 5px;
+    left: 89px;
+    top: 47px;
+    transform: rotate(321deg);
+  }
+  
+  .plant.plant-two .petals span:nth-child(10) {
+    height: 15px;
+    width: 5px;
+    left: 95px;
+    top: 38px;
+    transform: rotate(321deg);
+  }
+  
+  .plant.plant-two .petals span:nth-child(11) {
+    height: 14px;
+    width: 5px;
+    left: 101px;
+    top: 31px;
+    transform: rotate(339deg);
+  }
+  
+  .plant.plant-two .petals span:nth-child(12) {
+    height: 12px;
+    width: 4px;
+    left: 108px;
+    top: 26px;
+    transform: rotate(344deg);
+  }
+  
+  .plant.plant-three .petals span:first-child {
+    height: 24px;
+    width: 7px;
+    left: 33px;
+    top: 85px;
+    transform: rotate(250deg);
+  }
+  
+  .plant.plant-three .petals span:nth-child(2) {
+    height: 22px;
+    width: 7px;
+    left: 24px;
+    top: 75px;
+    transform: rotate(246deg);
+  }
+  
+  .plant.plant-three .petals span:nth-child(3) {
+    height: 20px;
+    width: 6px;
+    left: 15px;
+    top: 66px;
+    transform: rotate(250deg);
+  }
+  
+  .plant.plant-three .petals span:nth-child(4) {
+    height: 18px;
+    width: 5px;
+    left: 7px;
+    top: 60px;
+    transform: rotate(253deg);
+  }
+  
+  .plant.plant-three .petals span:nth-child(5) {
+    height: 16px;
+    width: 5px;
+    left: 14px;
+    top: 49px;
+    transform: rotate(179deg);
+  }
+  
+  .plant.plant-three .petals span:nth-child(6) {
+    height: 18px;
+    width: 6px;
+    left: 23px;
+    top: 52px;
+    transform: rotate(187deg);
+  }
+  
+  .plant.plant-three .petals span:nth-child(7) {
+    height: 22px;
+    width: 6px;
+    left: 32px;
+    top: 57px;
+    transform: rotate(182deg);
+  }
+  
+  .plant.plant-three .petals span:nth-child(8) {
+    height: 22px;
+    width: 7px;
+    left: 41px;
+    top: 66px;
+    transform: rotate(188deg);
+  }
+  
+  .plant.plant-three .petals span:nth-child(9) {
+    height: 22px;
+    width: 7px;
+    left: 51px;
+    top: 77px;
+    transform: rotate(198deg);
+  }
+  
+  .pattern {
+    position: relative;
+  }
+  
+  .pattern span {
+    background: #2f8ab7;
+    display: block;
+    border-radius: 100%;
+    position: absolute;
+  }
+  
+  .pattern span:first-child {
+    height: 38px;
+    width: 15px;
+    left: 40%;
+    top: 9px;
+  }
+  
+  .pattern span:nth-child(2) {
+    height: 29px;
+    width: 12px;
+    left: 18px;
+    top: 15px;
+    transform: rotate(-32deg);
+  }
+  
+  .pattern span:nth-child(3) {
+    height: 29px;
+    width: 12px;
+    right: 19px;
+    top: 15px;
+    transform: rotate(32deg);
+  }
+  
+  .pattern span:nth-child(4) {
+    height: 23px;
+    width: 10px;
+    left: 10px;
+    top: 25px;
+    transform: rotate(302deg);
+  }
+  
+  .pattern span:nth-child(5) {
+    height: 23px;
+    width: 10px;
+    right: 11px;
+    top: 25px;
+    transform: rotate(-302deg);
+  }
+  
+  @keyframes swing {
+    0% {
+      transform: rotate(3deg);
+    }
+  
+    100% {
+      transform: rotate(-3deg);
+    }
+  }
+  
+  @keyframes swing-1 {
+    0% {
+      transform: rotate(2deg);
+    }
+  
+    100% {
+      transform: rotate(-2deg);
+    }
+  }
+  
+  @keyframes swing-2 {
+    0% {
+      transform: rotate(-3deg);
+    }
+  
+    100% {
+      transform: rotate(3deg);
+    }
+  }
+  
+  .plant.plant-one,
+  .plant.plant-two,
+  .plant.plant-three {
+    position: absolute;
+    display: flex;
+    height: 120px;
+    width: 120px;
+    transform-origin: bottom;
+  }
+  
+  .plant.plant-one {
+    animation: swing ease-in-out 3s infinite alternate;
+  }
+  
+  .plant.plant-two {
+    animation: swing-1 ease-in-out 3s infinite alternate;
+  }
+  
+  .plant.plant-three {
+    animation: swing-2 ease-in-out 3.5s infinite alternate;
+  }
+  

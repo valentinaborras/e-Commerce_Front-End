@@ -1,0 +1,57 @@
+.img-Container {
+  /* position: relative; */
+  overflow: hidden;
+  /* width: 300px; 
+  height: 200px;  */
+}
+
+.img-Favorites {
+  height: 280px;
+  width: 100%;
+  object-fit: cover;
+  /* transition: transform 0.9s ease;
+  transform: scale(1) translate(0, 0); */
+}
+
+.img-Favorites:hover {
+  transform: scale(1.3) translate(10px, 10px);
+}
+
+.custom-Card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  height: 100%;
+  /* transition: box-shadow 0.3s ease-in-out;  */
+}
+
+.favorite-Container {
+  min-height: 0;
+}
+
+.btn-Add-Cart:hover {
+  background-color: #145333;
+  color: white;
+}
+.see-More{
+  font-size: 1rem;
+  color: black;
+}
+
+
+.intermitente{
+  
+  padding: 20px 20px;
+  filter: drop-shadow(0 0 2em #0fa30f);
+  animation: infinite resplandorAnimation 2s;
+  
+}
+@keyframes resplandorAnimation {
+  0%,100%{
+    filter: drop-shadow(0 0 2em #e1d602);
+  }
+  50%{
+    filter: drop-shadow(0 0 0em #000000);
+  
+  }
+
+}

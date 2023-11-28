@@ -1,0 +1,18 @@
+.btn-Continue-Shopping {
+  background-color: rgb(179, 179, 179);
+  color: #ffffff;
+  border-radius: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.btn-Continue-Shopping:hover {
+  background-color: #8c8c8ce8;
+  color: #000000;
+}
+
+@media (max-width: 767px) {
+  .btn-Continue-Shopping {
+    font-size: 0.8rem;
+    padding: 0.25rem 0.5rem;
+  }
+}

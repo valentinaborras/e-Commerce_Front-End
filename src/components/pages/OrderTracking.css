@@ -1,0 +1,8 @@
+.order-Details {
+    width: 500px;
+
+}
+
+.order-Details > p{
+    font-size: 0.7rem;
+}

@@ -1,0 +1,61 @@
+.btn-Carousel {
+  background-color: white;
+  font-size: 1.2rem;
+  border-radius: 0;
+  display: inline-block;
+  position: relative;
+  margin-left: 8rem;
+  margin-top: 1rem;
+}
+
+.btn-Carousel:hover {
+  background-color: #145333;
+  color: white;
+}
+
+.title-Carousel {
+  color: black;
+  text-align: left;
+}
+
+.info-Slider {
+  margin-bottom: 16rem;
+  text-align: left;
+  justify-content: left;
+}
+
+.img-Slider {
+  height: calc(100vh - 100px);
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+.carousel-indicators li {
+  background-color: grey;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 8px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.carousel-indicators .active {
+  background-color: black;
+}
+.carousel-control-prev-icon{
+  font-size: 0.1rem;
+
+ 
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  filter: none !important;
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 50px; 
+}
+
+  

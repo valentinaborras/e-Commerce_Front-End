@@ -1,0 +1,9 @@
+
+.bg-Marco{
+    background-image: url("../../assets/img/MarcoPlants.png");
+    background-repeat: no-repeat;
+    background-size:  500px auto;
+    background-position: center;
+    height: 500px;
+    
+  }

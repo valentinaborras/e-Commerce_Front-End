@@ -1,0 +1,20 @@
+.order-Details-Table {
+  height: auto;
+  width: 100%;
+  padding: 0;
+}
+
+.order-Placed-Img {
+  height: 200px ;
+  width: 200px;
+  
+}
+
+.order-Details-Page {
+  position : static;
+  top : 0;
+  left : 0;
+  width : 100%;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
